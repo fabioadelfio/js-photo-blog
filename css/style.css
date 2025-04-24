@@ -1,0 +1,7 @@
+/* # DEBUG */
+
+.debug,
+.debug * {
+  background-color: #ff000022;
+  border: 2px dashed red;
+}

@@ -44,7 +44,7 @@ main {
   justify-content: center;
 }
 
-.container {
+#container {
   width: 1000px;
   margin-top: 3rem;
 }
@@ -62,10 +62,16 @@ main {
   align-items: center;
 }
 
-.card {
+.col .card {
+  width: 15rem;
   background-color: white;
   padding: 1rem;
   position: relative;
+  box-shadow: 1px 2px black;
+}
+
+.card .card-img {
+  max-width: 100%;
 }
 
 .pin {
@@ -75,3 +81,4 @@ main {
   left: 50%;
   transform: translateX(-50%);
 }
+

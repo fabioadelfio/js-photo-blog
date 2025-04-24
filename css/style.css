@@ -12,11 +12,16 @@
   padding: 0;
 }
 
-body {
+.title {
   font-family: "Edu TAS Beginner", cursive;
 }
 
+.date {
+  font-family: "Sometype Mono", monospace;
+}
+
 /* # HEADER */
+
 header {
   text-align: center;
   background-image: url(../img/wall.png);
@@ -28,3 +33,12 @@ header {
   font-size: 4rem;
   font-weight: bold;
 }
+
+/* # MAIN */
+
+main {
+  background-image: url(../img/cork.png);
+  background-repeat: repeat;
+  height: 100vh;
+}
+

@@ -5,3 +5,26 @@
   background-color: #ff000022;
   border: 2px dashed red;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Edu TAS Beginner", cursive;
+}
+
+/* # HEADER */
+header {
+  text-align: center;
+  background-image: url(../img/wall.png);
+  background-repeat: repeat;
+}
+
+.page-title {
+  padding: 20px;
+  font-size: 4rem;
+  font-weight: bold;
+}

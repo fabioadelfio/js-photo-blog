@@ -65,5 +65,13 @@ main {
 .card {
   background-color: white;
   padding: 1rem;
+  position: relative;
 }
 
+.pin {
+  width: 1.5rem;
+  position: absolute;
+  bottom: 94%;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -39,6 +39,8 @@ axios
         // Aggiungo la riga completa al contenitore principale
         container.append(row);
 
+        // GESTIONE DELL'OVERLAY
+
         // Seleziono tutte le card appena create
         const cardsNodes = document.querySelectorAll(`.card`);
         console.log(cardsNodes); // Debug: stampa le card nel console log
